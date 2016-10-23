@@ -7,46 +7,46 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin">
+    android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="nickshch.androidweatherapp.CitySelectActivity">
 
     <Button
-        android:text="City1"
+        android:text="VICE_CITY"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:id="@+id/button1" />
+        android:id="@+id/button_city_VICE_CITY" />
 
     <Button
-        android:text="City2"
+        android:text="RACCOON_CITY"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/button1"
+        android:layout_below="@+id/button_city_VICE_CITY"
         android:layout_centerHorizontal="true"
-        android:id="@+id/button2" />
+        android:id="@+id/button_city_RACCOON_CITY" />
 
     <Button
-        android:text="City3"
+        android:text="SPRINGFIELD"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/button2"
+        android:layout_below="@+id/button_city_RACCOON_CITY"
         android:layout_centerHorizontal="true"
-        android:id="@+id/button3" />
+        android:id="@+id/button_city_SPRINGFIELD" />
 
     <Button
-        android:text="City4"
+        android:text="SILENT_HILL"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/button3"
+        android:layout_below="@+id/button_city_SPRINGFIELD"
         android:layout_centerHorizontal="true"
-        android:id="@+id/button4" />
+        android:id="@+id/button_city_SILENT_HILL" />
 
     <Button
-        android:text="City5"
+        android:text="SOUTH_PARK"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/button4"
+        android:layout_below="@+id/button_city_SILENT_HILL"
         android:layout_centerHorizontal="true"
-        android:id="@+id/button5" />
+        android:id="@+id/button_city_SOUTH_PARK" />
 </RelativeLayout >
